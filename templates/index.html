@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Service worker demo</title>
+    </head>
+    <body>
+        <h1>Service worker demo</h1>
+
+        <div>
+            <a href=/page1>Page 1</a>
+            <a href=/page2>Page 2</a>
+        </div>
+	<div>
+            <iframe src="/" />
+        </div>
+	<script type="module" src="{{ url_for('static', filename='app.js') }}"></script>
+    </body>
+</html>
